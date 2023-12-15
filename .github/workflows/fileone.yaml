@@ -1,6 +1,6 @@
 name: Run automated tests
-on:
-push
+on:push
+
 jobs:
  TestJob:
  runs-on: ubuntu-latest
