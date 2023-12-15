@@ -1,0 +1,8 @@
+name :hello
+on:push
+jobs:
+  helll
+  run-on: ubuntu-latest
+  steps:
+  -name:print hello
+   run:echo"hello dodz"
