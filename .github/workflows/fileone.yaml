@@ -2,9 +2,10 @@ name: Run automated tests
 on:
 push
 jobs:
-TestJob:
-runs-on: ubuntu-latest
-steps:
-# Step 1: Checkout the project's source code from the repository.
-- name: Checkout project sources
-uses: echo"hiiiiiiiiii"
+ TestJob:
+ runs-on: ubuntu-latest
+ 
+ steps:
+ # Step 1: Checkout the project's source code from the repository.
+ - name: Checkout project sources
+ uses: echo"hiiiiiiiiii"
