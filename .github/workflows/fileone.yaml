@@ -1,8 +1,10 @@
-name :hello
-on:push
+name: Run automated tests
+on:
+push
 jobs:
-  helll:
-  run-on: ubuntu-latest
-  steps:
-  -name:print hello
-   run:echo"hello dodz"
+TestJob:
+runs-on: ubuntu-latest
+steps:
+# Step 1: Checkout the project's source code from the repository.
+- name: Checkout project sources
+uses: echo"hiiiiiiiiii"
